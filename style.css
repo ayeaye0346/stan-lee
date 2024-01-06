@@ -1,64 +1,80 @@
+/* bunumla siyah kısmı yani body yaptık */
 body{
     background-color: black;
     color: white;
+    /* color wight deyince yazıların rengi de beyaz oldu */
 }
-
+/* container yani div o yüzden bu block elennettir. onun için biz margin outoyu kullanırız. ortalamak için.block elementin kendisini ortlaıyoruz. */
 .container{
     width: 80%;
     margin: auto;
-    background-color: rgb(43,39,39);
-    border-radius:  20px; ;
+    background-color: rgb(41, 40, 40);
+    /* kenarlRINDA hafif yuvarlama yapmak için border radius kullandık */
+    border-radius: 20px;
 }
 
 .heading{
-    font-family:'lobster' , cursive;
+    /* font familyi hoca attı biz yazdık */
+    font-family: 'Lobster', cursive;
+    /* class nameler aynı olduğu için h2 başlığıyla burada bu fontu iki başlığada uygulamış oluruz. */
 }
-
+/* burada id kullanacağız h1 de eksttra değişikliklerimiz var ve id lerini alarak yapacağız */
 #title{
+    /* başlığın içeriği ortada onun için text align center yaparak oartalayacağuız. */
     text-align: center;
-    font-size: 90px;
+font-size: 90px;
 }
 
 #span1{
     color: red;
 }
 
+/* resim ve paragraf bir div içinde önce onu aldık */
 #img-div{
+    /* block elenetimin contentini ortalamak için text align center kullandık */
     text-align: center;
+
 }
 
+/* resimle alakalı değişiklikte image id kullanılmış onu yaptık */
 #image{
     width: 400px;
     border-radius: 40px;
 }
 
 #info{
-    width: 80%;
+    width: 80% ;
+    /* background-color: aqua; */
     margin: 20px auto;
+    /* iki yana yaslamak için bunu kullandıktext align justifiy */
     text-align: justify;
     font-size: 24px;
-
 }
 
 #marvel{
     color: red;
-    margin: 10%;
+    /* başlığı soldan yukarıdaki paragrafın başladığı hizaya getirmek istiyorum yüzde seksen genişilik vermiştik kenarlar yüzde yirmi kaldı o yüzden yüzde on margin verirsek işlemi yaptık */
+    
+    margin-left: 10%;
+    /* margin: 10%; şeklinde verirsek her taraftan 10 boşluk bırajkır. o yüzden marjin left yaptık. */
 
 }
 
 ul{
-   width: 80%; 
+   width: 80%;
    margin: auto;
+   font-size: 24px;
 }
 
 li{
     font-size: 24px;
-   line-height: 50px;
-
+line-height: 50px;
+/* listeler arasındaki boşluk için lineheight yaptık */
 }
 
 #footer{
     text-align: center;
+    /* margin outoyuda kullanabiliriz.kullanmamız gerekli border iin  */
     width: 60%;
     margin: auto;
     border: 1px solid ;
@@ -67,24 +83,17 @@ li{
 }
 
 #link{
-   text-decoration: none ;
-   color: white;
-   border: 2px solid orange;
-   border-radius: 10px;
-   padding: 15px;
-   background-color: black;
+    /* altındaki çizgiyi yok etmek için text decoration none seçtik */
+    text-decoration: none;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: black;
+    
 }
-
+/* mause etkisi için yani linkin üzerine gelince rengi değişiyo falan */
 #link:hover{
     color: red;
     background-color: gray;
-    
 }
-
-
-
-
-
-
-
-
